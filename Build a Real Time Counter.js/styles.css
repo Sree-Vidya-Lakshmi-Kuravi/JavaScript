@@ -1,0 +1,15 @@
+#text-input {
+  width: 300px;
+  height: 120px;
+  font-size: 16px;
+}
+
+#char-count {
+  font-size: 16px;
+  margin-top: 8px;
+  color: black;
+}
+
+#char-count.limit {
+  color: red;
+}
