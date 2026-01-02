@@ -1,0 +1,32 @@
+Build a Favorite Icon Toggler
+-------------------------------
+You should have an unordered list with three items.
+The unordered list should have the class item-list.
+The three list items should contain the item name followed by a button element with the class favorite-icon.
+The button element should contain the code &#9825; initially to represent an empty heart.
+When a button element containing a heart is clicked, you should add a class named filled to the clicked button if it's not already present, and remove it, if it is.
+You should have a class selector that targets the filled class and sets some CSS properties.
+When a button element containing a heart is clicked, the heart symbol should toggle between &#9825; (empty heart) and &#10084; (filled heart), depending on its current state.
+Note: Be sure to link your JavaScript file in your HTML. (Ex. <script src="script.js"></script>)
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Favorite Icon Toggler</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <ul class="item-list">Favourite Biscuits?
+      <li>Good Day
+        <button class="favorite-icon">&#9825;</button></li>
+      <li>Parle G
+        <button class="favorite-icon">&#9825;</button></li>
+      <li>Monaco
+        <button class="favorite-icon">&#9825;</button></li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
